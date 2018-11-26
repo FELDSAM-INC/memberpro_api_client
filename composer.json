@@ -17,8 +17,5 @@
 
     "autoload": {
         "psr-4": {"MemberproApi\\": "src/"}
-    },
-    "require-dev": {
-        "kint-php/kint": "^3.0"
     }
 }
