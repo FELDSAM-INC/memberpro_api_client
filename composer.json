@@ -1,5 +1,5 @@
 {
-    "name": "memberpro_api_client",
+    "name": "feldsam-inc/memberpro_api_client",
     "description": "client for memberpro API",
     "type": "library",
     "authors": [
