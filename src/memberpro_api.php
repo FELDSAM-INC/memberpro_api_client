@@ -41,12 +41,11 @@ class Memberpro_Api
 
     /**
      * MemberproApi constructor.
+     * @var $endpoint
      */
-    public function __construct()
+    public function __construct($endpoint)
     {
-        $this->endpoint = 'http://62.109.132.157:8097/Service_api.asmx';
-
-        $this->getPriceList();
+        $this->endpoint = $endpoint;
     }
 
     /**
