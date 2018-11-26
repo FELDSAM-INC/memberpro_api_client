@@ -1,0 +1,24 @@
+{
+    "name": "memberpro_api_client",
+    "description": "client for memberpro API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Matěj Podroužek",
+            "email": "matej.podrouzek@feldhost.cz"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "ext-libxml": "*"
+    },
+
+    "autoload": {
+        "psr-4": {"MemberproApi\\": "src/"}
+    },
+    "require-dev": {
+        "kint-php/kint": "^3.0"
+    }
+}
